@@ -141,5 +141,6 @@ void tracker::setFirstFrame(const Mat frame, vector<Point2f> bb, string title, S
 			if (key == 0x1b)//Push Esc Key
 				break;
 		}
+
 		return 0;
 }
